@@ -1,4 +1,4 @@
-"""CALCULADORA"""
+"""CALCULADORA 01"""
 
 n1 = int(input("Ingresa el primer numero: "))
 n2 = int(input("Ingresa el segundo numero: "))

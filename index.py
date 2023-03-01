@@ -1,4 +1,4 @@
-"""SAS"""
+"""INDEX"""
 import math  # Modulo nativo que podemos importar para tener mas funciones con numeros
 
 # BACKSLASH
@@ -7,7 +7,7 @@ import math  # Modulo nativo que podemos importar para tener mas funciones con n
 # \\
 # \n
 
-# VARIABLES
+## VARIABLES ##
 
 TITLE = "Curso de Python"
 TEXT = "hola mundo"
@@ -17,8 +17,9 @@ print(f"{TITLE} {TEXT}")
 print(DESCRIPTION)
 print(TEXT[0:4])
 
-# METODOS DE STRINGS
+## METODOS DE STRINGS ##
 
+print(len(TEXT))
 print(TEXT.upper())
 print(TEXT.lower())
 print(TEXT.strip().capitalize())
@@ -32,7 +33,7 @@ print("mundo" in TEXT)
 print("mundo" not in TEXT)
 
 # NUMEROS
-# TYPES
+# TIPOS
 
 NUMBER = 2  # INT
 DECIMAL = 1.2  # FLOAT
@@ -65,7 +66,7 @@ print(math.floor(1.6))  # Redondea hacia abajo
 print(math.pow(23, 3))  # Eleva a la potencia
 print(math.sqrt(2))  # Raiz cuadrada
 
-# DATOS BOOLEANOS
+## DATOS BOOLEANOS ##
 
 # TRUTHY => TRUE
 
@@ -84,7 +85,7 @@ print(2 + 1 != 3)  # false
 print(2 == "2")    # false
 print(2 != "2")    # true
 
-# CONDICIONALES
+## CONDICIONALES ##
 
 EDAD = 22
 
@@ -114,3 +115,48 @@ if LOGIN and PAGO:
 
 if not LOGIN or not PAGO:
     print("No puedes continuar")
+
+# CADERA DE COMPARACIONES
+
+if 18 <= EDAD <= 65:
+    print("Tiene entre 18 y 65 años")
+
+## BUCLES ##
+
+# FOR
+
+for numero in range(5):  # Bucle que se ejecuta 5 veces
+    print(numero)  # Devuelve una secuencia desde 0 hasta el 4
+
+# FOR ELSE
+
+NUMERO_A_BUSCAR = 3
+
+for num in range(10):  # Bucle que se ejecuta 10 veces
+    print(num)
+    if num == NUMERO_A_BUSCAR:
+        print("encontrado", NUMERO_A_BUSCAR)
+        break  # Detiene la ejecucion del bucle
+else:  # se ejecuta si en el bucle "for" no se llama al "break"
+    print("no encontramos el numero buscado")
+
+# FOR CON OTROS ITERABLES
+
+for char in "Nilkarbis":
+    print(char)
+
+# WHILE
+
+NUMBER = 1
+
+while NUMBER < 100:  # Se ejecuta el bucle mientras la condicion se cumpla
+    print(NUMBER)
+    NUMBER *= 2  # Se multiplica el numero por 2 en cada iteracion
+
+# HAY QUE TENER CUIDADO CON LOS LOOPS INFINITOS #
+
+# BUCLES ANIDADOS
+
+for a in range(3):
+    for b in range(3):
+        print(f"{a}, {b}")
