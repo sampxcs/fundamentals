@@ -1,5 +1,14 @@
 """CALCULADORA"""
 
+# Crea una calculadora que pregunte dos numeros y la opneracion
+# que desea realizar y devuelva el resultado y vuelva a empezar
+# el programa solo debe para cuando el usuario ingrese el comando "salir"
+
+
+# ------------------------------------------------ #
+#                EJERCICIO RESUELTO                #
+# ------------------------------------------------ #
+
 print("""
 Bienvenido a la carculadora en la terminal.
 Ingrese los numeros y el tipo de operacion que quiere realizar.

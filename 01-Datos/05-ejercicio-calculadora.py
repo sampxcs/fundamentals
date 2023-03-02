@@ -1,5 +1,14 @@
 """CALCULADORA"""
 
+# Cree una aplicacion que pida dos numeros y devuelva
+# los resultados de la suma, resta, multiplicacion y
+# division de los numeros.
+
+
+# ------------------------------------------------ #
+#                EJERCICIO RESUELTO                #
+# ------------------------------------------------ #
+
 n1 = int(input("Ingresa el primer numero: "))
 n2 = int(input("Ingresa el segundo numero: "))
 
@@ -15,5 +24,4 @@ el resultado de la resta es {resta},
 el resultado de la multiplicacion es {multi},
 el resultado de la division es {div}.
 """
-
 print(mensaje)

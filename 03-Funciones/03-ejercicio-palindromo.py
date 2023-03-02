@@ -1,6 +1,11 @@
 """EJERCICIOS"""
 
-# FUNCION QUE NOS DICE SI UNA PALABRA ES UN PALINDROMO
+# Crea una funcion que devuelva True si el texto ingresado es
+# un palindromo y False si no lo es
+
+# ------------------------------------------------ #
+#                EJERCICIO RESUELTO                #
+# ------------------------------------------------ #
 
 
 def es_palindromo(string):
