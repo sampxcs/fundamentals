@@ -1,4 +1,4 @@
-# Python Fundamentals - Basics Course
+# Fundamentos de Python - Curso Desde Cero
 
 ## En este archivo encontraras ejemplos de:
 
@@ -19,3 +19,8 @@
 - BUCLES
 - BUCLES ANIDADOS
 - FUNCIONES
+
+## Extenciones necesarias para trabajar con Python
+
+- python
+- pylint

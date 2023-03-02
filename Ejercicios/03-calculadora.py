@@ -1,4 +1,4 @@
-"""CALCULADORA 02"""
+"""CALCULADORA"""
 
 print("""
 Bienvenido a la carculadora en la terminal.
