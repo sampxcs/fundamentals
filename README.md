@@ -1,4 +1,7 @@
-# Fundamentos de Python - Curso Desde Cero
+# Fundamentos - Bases de distintos lenguajes de programacion
+
+- JavaScript
+- Python
 
 ## En este archivo encontraras ejemplos de:
 
